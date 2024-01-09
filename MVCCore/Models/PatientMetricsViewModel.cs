@@ -6,9 +6,9 @@ namespace MVCCore.Models
     {
         public PatientMetricsViewModel()
         {
-
+            
         }
-        public IEnumerable<PatientDetail> Patients { get; set; }
+        public IEnumerable<PatientDetail>? Patients { get; set; }
 
 
     }
